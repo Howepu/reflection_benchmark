@@ -70,7 +70,7 @@ public class ReflectionBenchmark {
         bh.consume(name);
     }
 
-    // LambdaMetafactory
+    // java.lang.invoke.LambdaMetafactory
     @Benchmark
     public void lambdaMetafactoryAccess(Blackhole bh) {
         String name = lambdaGetter.getName(student);
@@ -95,7 +95,6 @@ public class ReflectionBenchmark {
         new Runner(options).run();
     }
 
-    // Вложенные типы должны быть в конце
     @FunctionalInterface
     interface NameGetter {
         String getName(Student student);
