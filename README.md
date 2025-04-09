@@ -25,7 +25,7 @@
     - `directAccess()`: прямой вызов метода объекта.
     - `reflection()`: вызов метода через рефлексию.
     - `methodHandles()`: вызов метода через `MethodHandle`.
-    - `lambdaMetafactory()`: вызов метода через `LambdaMetafactory`.
+    - `lambdaMetafactory()`: вызов метода через `LambdaMetafactory`
 
 | Benchmark                                   | Score | Units  |
 |---------------------------------------------|-------|--------|
